@@ -1,0 +1,45 @@
+/*Estilos especificos para "reservaciones.html"*/
+.contenedor{/*Contenedor dentro del contenedor izquiredo que tiene todos los elementos*/
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa button{/*Propiedades que dan estilo a los botnoes del mapa*/
+  font-size: 20px;
+  font-weight: bold;
+  background: #00A875;
+  color: #ffffff;
+  width: 90px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tipo button{/*Propiedades que dan estilo al boton de "Hacer reservacion"*/
+  border: none;
+  background-color: #00A875;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.contenedor input{/*Propiedades que dan estilo alos inputs dentro del contenedor anterior*/
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.data{/*Propiedad para alinear los inputs*/
+  text-align: center;
+}

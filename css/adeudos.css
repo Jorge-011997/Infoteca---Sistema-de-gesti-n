@@ -1,0 +1,38 @@
+/*Estilos especificos para "adeudos.html"*/
+.contenedor{/*Contenedor dentro del contenedor izquierdo que almacena todos los elemntos*/
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tipo button{/*Propiedades que dan estilo al boton dentro del contenedor anterior*/
+  border: none;
+  background-color: #00A875;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.contenedor input{/*Propiedades que dan estilo a los inputs dentro del contenedor anterior*/
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.contenedor .caja{/*Propiedades que dan estilo a la caja donde se mostraria la informacion consultada*/
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  margin-top: 20px;
+  height: 200px;
+  text-align: center;
+}

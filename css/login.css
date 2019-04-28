@@ -1,0 +1,125 @@
+/*Estilos de las pantallas de login y registro*/
+
+*{/*Estos estilos son para quitar los margenes por defecto a la pagina*/
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: arial;
+}
+
+.left_container{/*Aqui especifico las propiedades del contenedor izquierdo*/
+  width: 70%;
+  height: 100vh;
+  display: inline-flex; /*Utilice las diferentes propiedades de flex para centrar los contenidos*/
+  justify-content:center;
+  align-items: center;
+  background-color: #151922;
+}
+
+.right_container{/*Aqui especifico las propiedades del contenedor derecho*/
+  float: right;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #00A875;
+}
+
+.box1{/*Caja que contiene todo lo que hay en el contenedor izquierdo*/
+  text-align: justify;
+  width: 90%;
+  height: 200px;
+}
+
+.box2{/*Caja que contiene y fomrmulario de login y registro en el contenedor derecho*/
+  text-align: center;
+}
+
+.box3{/*Caja que contiene el enlace al registro de errores (No implementado aun)*/
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.box3 p{
+  color: #ffffff;
+}
+.box3 a{
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: solid 1px #ffffff;
+}
+
+.retroalimentacion{
+  text-align: center;
+  opacity: 0.6;
+}
+
+.registro h3{/*Propiedades del texto "¿No tines un cuenta?/¿Ya tienes una cuenta?"*/
+  color: #94979C;
+}
+.registro a{/*Propiedades del enlace adjunto a texto anterior*/
+  text-decoration: none;
+  color: #94979C;
+  border-bottom: solid 1px #94979C;
+}
+
+.links ul li{/*Propiedades de los items de la lista de sitios utilies para el usuario*/
+  margin-top: 20px;
+  list-style:none;
+  display: inline-block;
+  margin-right:30px;
+}
+
+.links a{/*Propiedades de los enlace de la lista antes mencionada*/
+  color: #94979C;
+}
+
+.btn2{/*Propiedades de los botones*/
+  border: none;
+  background-color: #ffffff;
+  color: #00A875;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.info{/*Propiedades que le dan estilo a los input*/
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  placeholder: #ffffff;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+::placeholder{/*Propiedades para el placeholder*/
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.recuperar{/*Propiedades para el enlace de recuperar contraseña (Aun no implementado)*/
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+.btn2:hover{/*Cambio de color en los botones*/
+  background-color: #151922;
+  color: #ffffff;
+}
+
+.texto{/*Color del texto del contenedot izquierdo*/
+  color: #94979C;
+}
+
+.texto p{/*Color del texto del contenedot izquierdo*/
+  color: #94979C;
+  margin-top: 20px;
+}

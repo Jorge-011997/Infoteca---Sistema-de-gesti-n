@@ -1,0 +1,165 @@
+/*Estilos de la pantalla de menu principal y tambien estos son los estilos generales de la pagina*/
+*{/*Estos estilos son para quitar los margenes por defecto a la pagina*/
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: arial;
+}
+
+.left_container{/*Aqui especifico las propiedades del contenedor izquierdo*/
+  width: 70%;
+  height: 100vh;
+  background-color: #151922;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.left_container .box1{/*Este contenedor esta dentro del contenedor derecho y abajo del contenedor del titulo*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_container .forma{/*Este es el contenedor de la forma del titulo*/
+  background: none;
+  width: 100%;
+  height: 10%;
+}
+
+.right_container{/*Aqui especifico las propiedades del contenedor derecho*/
+  float: right;
+  width: 30%;
+  height: 100vh;
+  background-color: #00A875;
+}
+
+.forma{/*Propiedades de la figura del titulo*/
+  display: inline-block;
+}
+
+#paralelogramo{/*Propiedades que dan forma al contenedor del titulo convirtiendolo en un paralelogramo*/
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-left: -25px;
+  background: #00A875;
+  -webkit-transform: skew(-40deg); /*Para uso generico en lo navegadores*/
+  -moz-transform: skew(-40deg);
+  -o-transform: skew(-40deg);
+}
+
+#paralelogramo h1{/*Propiedades para que el texto no se vea afectado por las propiedades anteriores*/
+  font-style: oblique;
+  font-size: 30px;
+  background: none;
+  -webkit-transform: skew(40deg); /*Para uso generico en lo navegadores*/
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg);
+}
+
+.right_container .checkbox{/*Propiedades que ocultan el checkbox que muestra el texto*/
+  visibility: hidden;
+}
+
+.right_container .menu{/*Propiedades del label en la barra lateral que dice "Informacion del proecto"*/
+  box-sizing: border-box;
+  border: solid 2px #ffffff;
+  background: #151922;
+  width: 30%;
+  height: 10%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: oblique;
+  cursor: pointer;
+  transition: top 0.7s; /*Propiedad trasition y propiedad a la que se le aplicara*/
+}
+
+.checkbox:checked ~ .menu{/*Propiedades que se ejecutan al estar marcar el checkbox*/
+  top: 80%;
+}
+
+.info{/*Propiedades de la caja que contiene la informacion oculta*/
+  background: #00A875;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28.5%;
+  height: 76.8%;
+  position: fixed;
+  top: -80%;
+  transition: top 0.7s;
+  text-align: justify;
+  padding: 10px;
+}
+
+.checkbox:checked ~ .info{/*Propiedades que se ejecutan al estar marcar el checkbox*/
+  top: 0;
+}
+
+.volver{/*Propiedades de la caja en la barra lateral que dice "Menu Principal"*/
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  border: solid 2px #ffffff;
+  background: #151922;
+  width: 30%;
+  height: 10%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.volver a{/*Propiedades para el enlace de la caja anterior*/
+  text-decoration: none;
+}
+
+.logo{/*Propiedades para el logotipo de la barra lateral*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 10%;
+  width: 30%;
+  height: 80%;
+}
+
+.logo img{/*Propiedades que dan tamaño al logotipo*/
+  height: 60%;
+}
+
+.opc{/*Propiedades que se ejecutan al estar marcar el checkbox*/
+  width: 100%;
+}
+
+.opc ul{/*Propiedades de la lista de opciones del menu*/
+  list-style: none;
+}
+
+.opc a{/*Propiedades de los enlaces de la lista de opciones*/
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 10%;
+}
+
+.opc li{/*Propiedades que dan forma y color a cada uno de los elementos de la lista*/
+  background-color: #00A875;
+  margin-top: 20px;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}

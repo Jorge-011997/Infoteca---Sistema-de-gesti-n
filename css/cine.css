@@ -1,0 +1,82 @@
+/*Estilos especificos para "cine.html"*/
+.contenedor1{/*Contenedor dentro del contenedor izquierdo para colocar el poster de la pelicula*/
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2{/*Contenedor para la informacion de la pelicula y el formulario de datos*/
+  height: 80%;
+  width: 40%;
+  align-items: center;
+}
+
+.formulario button{/*Estilos para los botones de registrar y de los horarios de las funciones*/
+  border: none;
+  background-color: #00A875;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.contenedor1 img{/*Propiedades para la altura del poster*/
+  height: 100%;
+}
+
+.titulo{/*Propiedades para la caja que contiene el titulo y una pequeña descripcion de la pelicula*/
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding: 10px;
+}
+
+.titulo p{/*Propiedades para el texto dentro de la caja anterior*/
+  text-align: justify;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.formulario{/*Propiedades para el formulario de datos*/
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.datos input{/*Propiedades para ver en bloque los inputs*/
+  display: block;
+}
+
+.hora{/*Propiedades para ver en line los botnoes de las horas*/
+  display: inline;
+}
+
+.funciones{/*Propiedades para la caja de funciones*/
+  margin-top:20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.funciones p{/*Propiedades para el texto dentro de la caja anterior*/
+  font-weight: bold;
+}
+
+.datos input{/*Propiedades para los inputs del registro*/
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  placeholder: #ffffff;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}

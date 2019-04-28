@@ -1,0 +1,41 @@
+/*Estilos especificos para "entradasysalidas.html" y "equipoyMantenimiento.html"*/
+.contenedor{/*Contenedor dentro del contenedor izquierdo que lleva los inputs y los botones*/
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa button{/*Propiedades para los botones del mapa*/
+  font-size: 20px;
+  font-weight: bold;
+  background: #00A875;
+  color: #ffffff;
+  width: 90px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tipo button{/*Propiedades para los botones de entrada y salida*/
+  border: none;
+  background-color: #00A875;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.contenedor input{/*Propiedades para los inputs (En este caso solo hay uno)*/
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}

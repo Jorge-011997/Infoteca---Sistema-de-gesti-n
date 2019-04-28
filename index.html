@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/login.css"><!--Enlace a hoja de estilos-->
+  <title>Infoteca - Sistema de gestión</title>
+</head>
+
+<body>
+  <!--Contenedor izquierdo-->
+  <!--La página esta dividida en dos contenedores generales, izquierdo y derecho, de color azul y verde
+      respectivamente a partir de cada uno y en las diferentes paginas se desprenden contenedore internos
+      para cada tipo de contenido-->
+  <!--(Esta página comparte estilos y diseño con "registro.html")-->
+  <div class="left_container">
+    <div class="box1"><!--Contenedor de texto-->
+      <h1 class="texto">Infoteca - Sistema de gestión</h1>
+      <div class="registro">
+        <h3>¿No tienes una cuenta? <a href="registro.html">Registrate aquí</a></h3><!--Enlace a pagina de registro-->
+      </div>
+      <div class="texto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quibusdam quae molestiae iusto quidem eaque eius incidunt voluptas molestias delectus, illum nisi accusamus, numquam nulla architecto harum qui facere in! At modi dolor
+          doloremque cum rem ad, iusto sequi eligendi porro reprehenderit quam a architecto, repudiandae minima omnis dicta quos?</p>
+      </div>
+      <div class="links"> <!--Enlaces utiles para los usuarios-->
+        <ul>
+          <li><a href="https://www.dgb.uanl.mx/?mod=bdigital" target="_blank">Biblioteca UANL</a></li>
+          <li><a href="https://www.codice.uanl.mx" target="_blank">CÓDICE</a></li>
+          <li><a href="https://www.facebook.com/Biblioteca-FIME-UANL-Ing-Guadalupe-E-Cedillo-Garza-1546189735707988/" target="_blank">FB Biblioteca FIME</a></li>
+          <li><a href="https://www.uanl.mx/enlinea/" target="_blank">SIASE</a></li>
+          <li><a href="https://login.nexus.uanl.mx/App/login/wfloginNx.htm" target="_blank">NEXUS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Contenedor Derecho-->
+  <!--Este contenedor tiene todo lo relativo al login-->
+  <div class="right_container">
+    <div class="box2">
+      <h2>Iniciar Sesión</h2>
+      <form class="login" action="index.html" method="post">
+        <div>
+          <input class="info" type="text" name="" value="" placeholder="Usuario">
+        </div>
+        <div>
+          <input class="info" type="password" name="" value="" placeholder="Contraseña">
+        </div>
+        <div>
+          <a href="menu.html"><input class="btn2" type="button" name="" value="Iniciar Sesión"></a>
+          <a href="#" class="recuperar">¿Olvidaste tu contraseña?</a>
+        </div>
+      </form>
+    </div>
+    <div class="box3"><!--formulario de registro de problemas (Auun no implementado)-->
+      <p>¿Encontraste algún problema?, <a href="">Reportalo aquí</a></p>
+    </div>
+  </div>
+</body>
+
+</html>

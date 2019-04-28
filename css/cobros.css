@@ -1,0 +1,39 @@
+/*Estilos especificos para "cobros.html"*/
+.contenedor{/*Contenedor dentro del contenedor izquierdo que lleva los inputs y los botones*/
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2{/*Segundo contenedor dentro del contender izquierod que lleva los tamaños de hoja y el input de cantidad*/
+  text-align: center;
+  margin-top: 70px;
+}
+
+.tipo button{/*Propiedades para los botones de servicios y tamaño de hojas*/
+  border: none;
+  background-color: #00A875;
+  color: #ffffff;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.contenedor input{/*Propiedades para los inputs*/
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+.hojas{/*Margin para el input de numero de hojas*/
+  margin-top: 30px;
+}
